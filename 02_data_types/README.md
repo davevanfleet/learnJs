@@ -185,3 +185,8 @@ And a little taste of what it will look like in React
 ```
 
 For more info on objects, check out the [docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+
+## Practice Time!
+
+In your text editor, open the file `02/data_types/dataTypes.js`.  
+Using the comments as a guide, write the 6 variable as described. Run the tests for the file with `npm run test 02_data_types/dataTypes.test.js`. When all the tests are green, we'll move on to functions!
