@@ -146,16 +146,16 @@ Objects are the most complicated Javascript data types, and also the most useful
 
 ```javascript
 const user = {
-    firstName: "Ada",
-    lastName: "Lovelace",
-    username: "countess_ada",
-    interests: ["math", "computers"],
-    lastLoginDate: "2022-02-15",
-    role: "admin"
-    confirmed: true,
-    verified: false,
-    outstandingBalnceCents: 10000
-}
+  firstName: "Ada",
+  lastName: "Lovelace",
+  username: "countess_ada",
+  interests: ["math", "computers"],
+  lastLoginDate: "2022-02-15",
+  role: "admin",
+  confirmed: true,
+  verified: false,
+  outstandingBalnceCents: 10000,
+};
 ```
 
 Don't be overwhelmed by this now. Let's just notice a few simple points about this object example.
