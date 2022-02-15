@@ -1,6 +1,6 @@
-# Lesson 1 - Variables and Functions
+# Lesson 1 - Variables
 
-Variables and functions lay the foundation for anything you will do in programming. In any programming language, it's important to make effective use of variables. And in javascript, functions are used _a lot!_
+Variables lay the foundation for anything you will do in programming. In any programming language, it's important to make effective use of variables.
 
 ## Variables
 
@@ -82,5 +82,5 @@ As a general rule, we should use `const` as much as possible. Using `const` prev
 
 ## Practice Time!
 
-In your text editor, open the file `01_variables_and_functions/variables.js`  
-Find the four variables, all declared with the `const` keyword (you can ignore the `export` keyword for now). Assign the correct value to each variable based on what you see in the comments (the lines starting with `//`). To check your work run the tests for the file (`npm run test 01_variables_and_functions/variables.test.js`). When all the tests are green, we'll move on to functions!
+In your text editor, open the file `01_variables/variables.js`  
+Find the four variables, all declared with the `const` keyword (you can ignore the `export` keyword for now). Assign the correct value to each variable based on what you see in the comments (the lines starting with `//`). To check your work run the tests for the file (`npm run test 01_variables/variables.test.js`). When all the tests are green, we'll move on to data types!

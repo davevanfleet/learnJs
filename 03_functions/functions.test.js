@@ -1,4 +1,4 @@
-import { sum, subtract, multiply, divide } from './mathFunctions'
+import { sum, subtract, multiply, divide } from './functions'
 
 test('sum() calculates correctly', () => {
   expect(sum(1, 2)).toBe(3);

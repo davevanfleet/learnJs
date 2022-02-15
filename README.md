@@ -23,13 +23,7 @@ Jest is used as the test runner for this project. Tests can be run as follows:
 - A single test file (recommended):
 
 ```
-npm run test -- 01_variables_and_functions/variables.test.js
-```
-
-- All the tests in a topic directory:
-
-```
-npm run test -- 01_variables_and_functions
+npm run test -- 01_variables/variables.test.js
 ```
 
 - All the tests in the repo:
