@@ -4,7 +4,7 @@ Variables and functions lay the foundation for anything you will do in programmi
 
 ## Variables
 
-Variables in programming languages work just like variables in algebra. You have the power to come up with some arbitrary name, and save some data to that name. As you can imaging, that's a pretty powerful tool! Consider some examples:
+Variables in programming languages work just like variables in algebra. You have the power to come up with some arbitrary name, and save some data to that name. As you can imagine, that's a pretty powerful tool! Consider some examples:
 
 - You need to do some tricky calculation that will be used in many places in your program. You can do the calculation once, save the result to a variable, then use that result anywhere else without having to run the calculation again.
 - You need to find all the elements on a website that meet a certain requirement (maybe all of the elements that use an `h1` tag), and change the color of them. You can save that _entire list_ of elements in a variable, and have it available to use whenever you need it (maybe you change the color once, then change it back depending on a specific condition)
@@ -66,7 +66,11 @@ If we tried that with a variable declared with `const`, we'll get an error like 
 ```
 const word = "hello"
 word = "world"
-// Uh oh! we can't do that and we'll get an error like this one :point_down:
+```
+
+Uh oh! we can't do that and we'll get an error like this one :point_down:
+
+```
 Uncaught TypeError: Assignment to constant variable.
 ```
 
