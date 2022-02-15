@@ -13,24 +13,24 @@ Variables in programming languages work just like variables in algebra. You have
 
 Variables are _declared_ when you create them and assign them a name. Variables are _defined_ when you assign some piece of data to that variable (don't worry too much about what that _data_ is yet, it will be covered in the next section about Data Types).
 
-```
+```javascript
 // Declaring a variable;
 let user;
 ```
 
 In the above example the variable `user` has been _declared_ by using the `let` keyword. But it hasn't yet been _defined_ because it has no data assigned to it. Let's do that now...
 
-```
+```javascript
 // Define the user variable
-user = { firstName: "Grace", lastName: "Hopper", title: "Admiral" }
+user = { firstName: "Grace", lastName: "Hopper", title: "Admiral" };
 ```
 
 Using the _assignment operator_ (`=`), we have defined the `user` variable to be [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
 
 These two steps of declaring and defining a variable don't need to be separated. In fact, you will definitely see them happening together, much more often than them happening in two separate steps. That would look like this:
 
-```
-let user = { firstName: "Grace", lastName: "Hopper", title: "Admiral" }
+```javascript
+let user = { firstName: "Grace", lastName: "Hopper", title: "Admiral" };
 ```
 
 Here, the `let` keyword is used to declare the variable (`user`), and _in the same line_ the assignment operate (`=`) is used to assign data to the variable.
@@ -46,26 +46,26 @@ In javascript there are two keywords used to define variables, `let` and `const`
 
 This effects us in a few ways. First of all, with `const` we can split the declaring and defining of a variable into two steps. Using const will always look something like this:
 
-```
-const user = { firstName: "Grace", lastName: "Hopper", title: "Admiral" }
+```javascript
+const user = { firstName: "Grace", lastName: "Hopper", title: "Admiral" };
 ```
 
 It also means that when we use `const`, we can't change our mind later and change the value assigned to the variable. With `let` we can do something like:
 
-```
-let word = "hello"
-word = "world"
-word = "nevermind"
-word = "whatever"
+```javascript
+let word = "hello";
+word = "world";
+word = "nevermind";
+word = "whatever";
 ```
 
 In the above example, we're reassigning the value of the `word` variable on each line.
 
 If we tried that with a variable declared with `const`, we'll get an error like this...
 
-```
-const word = "hello"
-word = "world"
+```javascript
+const word = "hello";
+word = "world";
 ```
 
 Uh oh! we can't do that and we'll get an error like this one :point_down:
@@ -74,7 +74,7 @@ Uh oh! we can't do that and we'll get an error like this one :point_down:
 Uncaught TypeError: Assignment to constant variable.
 ```
 
-(side note - when we look at data types we'll see that there are still ways that `const` variables can change - they aren't _truly_ contant in the way we may think of that word)
+> side note - when we look at data types we'll see that there are still ways that `const` variables can change - they aren't _truly_ contant in the way we may think of that word
 
 #### Which is better? `const` or `let`?
 
