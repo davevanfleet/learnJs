@@ -33,7 +33,7 @@ These two steps of declaring and defining a variable don't need to be separated.
 let user = { firstName: "Grace", lastName: "Hopper", title: "Admiral" };
 ```
 
-Here, the `let` keyword is used to declare the variable (`user`), and _in the same line_ the assignment operate (`=`) is used to assign data to the variable.
+Here, the `let` keyword is used to declare the variable (`user`), and _in the same line_ the assignment operator (`=`) is used to assign data to the variable.
 
 This is starting to look cleaner, but there's one more minor point to consider before we wrap up variables...
 
@@ -44,20 +44,25 @@ In javascript there are two keywords used to define variables, `let` and `const`
 - Variables declared with the `let` keyword can be _reassigned_
 - Variable declared with the `const` keyword cannot be reassigned (they are CONSTant)
 
-This effects us in a few ways. First of all, with `const` we can split the declaring and defining of a variable into two steps. Using const will always look something like this:
+This effects us in a few ways. First of all, with `const` we cannot split the declaring and defining of a variable into two steps. Using const will always look something like this:
 
 ```javascript
 const user = { firstName: "Grace", lastName: "Hopper", title: "Admiral" };
 ```
 
-It also means that when we use `const`, we can't change our mind later and change the value assigned to the variable. With `let` we can do something like:
+It also means that when we use `const`, we can't change our mind later and change the value assigned to the variable. With `let` we can declare the variable once with the `let` keyword, then redefine it as many times as we want (without using the `let` keyword again). This looks something like:
 
 ```javascript
 let word = "hello";
+// ...do some other stuff
 word = "world";
+// ...do some other other stuff
 word = "nevermind";
+// ...do some other other other stuff
 word = "whatever";
 ```
+
+> Note that we only use `let` the first time. This is becuase the variable only needs to be _declared_ once. After that, we can just change it using the assignment operator (`=`)
 
 In the above example, we're reassigning the value of the `word` variable on each line.
 
