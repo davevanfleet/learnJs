@@ -1,11 +1,16 @@
 // return the sum of a & b
-export const sum = (a, b) => {}
+const sum = (a, b) => {};
 
 // return the difference of a & b
-export const subtract = (a, b) => {}
+const subtract = (a, b) => {};
 
 // return multiply a & b
-export const multiply = (a, b) => {}
+const multiply = (a, b) => {};
 
 // return divide a by b
-export const divide = (a, b) => {}
+const divide = (a, b) => {};
+
+// write your own function named addThreeNumbers that takes three parameters and returns the sum of all 3
+const addThreeNumbers = (a, b, c) => {};
+
+export default { sum, subtract, multiply, divide, addThreeNumbers };
